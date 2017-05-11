@@ -1,0 +1,25 @@
+{
+  "name": "random-quote-generator",
+  "version": "1.0.0",
+  "description": "Random Quote Generator created using API and buttons to change the quote as well as a twitter button for tweeting.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "API",
+    "Random",
+    "Quotes"
+  ],
+  "author": "Steven Yu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
