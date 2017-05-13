@@ -2,6 +2,8 @@
 var express = require("express");
 var app = express();
 var request = require("request");
+var unescape = require("underscore.string/unescapeHTML");
+var stripTags = require("underscore.string/stripTags");
 var port = process.env.PORT || 3000;
 
 //res.render("quotegen.ejs"); => res.render("quotegen");
@@ -20,6 +22,8 @@ app.get("/", function(req,res){
             //parses the string into object
             var quote = JSON.parse(body);
             var actquote = quote["0"]["content"];
+            actquote = unescape(actquote);
+            actquote = stripTags(actquote);
             var actauthor = quote["0"]["title"];
             res.render("quotegen", {quote: actquote, author: actauthor});
         }
