@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: May 11, 2017 
+### Day 1: May 11, 2017 
 
 **Today's Progress**: Started On First Project (Random Quote Generator). Use https://quotesondesign.com/api-v4-0/ for random quote generator. http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1 is the endpoint.
 
@@ -8,11 +8,27 @@
 
 **Link(s) to work:** 
 
-### Day 1: May 12, 2017
+### Day 2: May 12, 2017
 
 **Today's Progress**: Continued On First Project (Random Quote Generator). Problem is that the content of the quote uses escape characters format which includes all the <html> and certain char codes. npm installed underscore.string to fix issue 
 
 **Thoughts:** I wondered if the EJS variables can find a way to link to JS files externally.
+
+**Link(s) to work:** 
+
+### Day 3: May 13, 2017
+
+**Today's Progress**: Continued On First Project (Random Quote Generator). In order to submit to codepen.io for submission, I need to redo this without the custom backend technologies. Therefore have to remake a basic version where I could only use HTML/CSS/JS. Had to take a step back because I am getting this error: "XMLHttpRequest cannot load http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.". Worked on certain aesthetics.
+
+**Thoughts:** Need to get a better concept and understanding on AJAX, that could be the solution to the problem. CSS design could use some work.
+
+**Link(s) to work:** 
+
+### Day 4: May 14, 2017
+
+**Today's Progress**: Continued On First Project (Random Quote Generator). Did a whole CSS overhaul today with minor use of flexbox, also learnt the functionality of flexbox which really helps with the columns elements without floats and makes styling much easier. Got the basic layout done. Fixed yesterday's error using a CORS extension for my browser, now using http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# instead for quotes to complement the aesthetics.
+
+**Thoughts:** Still need to get a better concept and understanding on AJAX. Design have always been my weakness, I believe I need to spend more time looking at different designs to get some aspects on different matching and design elements when I start a project. Afterall there should be a balance between looks and functionality.
 
 **Link(s) to work:** 
 
