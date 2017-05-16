@@ -32,6 +32,14 @@
 
 **Link(s) to work:** 
 
+### Day 5: May 15, 2017
+
+**Today's Progress**: Completed most parts of this first project, need to link twitter button to copy quote for last step. Currently having trouble with that because the quote always return [object Object] when changed the .attr(). Will have to ask for help for this part. Time to move onto next project (Local Weather App), signed up for the API
+
+**Thoughts:** Still need to get a better concept and understanding on AJAX to resolve the twitter.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
