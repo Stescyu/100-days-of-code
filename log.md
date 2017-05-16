@@ -34,9 +34,17 @@
 
 ### Day 5: May 15, 2017
 
-**Today's Progress**: Completed most parts of this first project, need to link twitter button to copy quote for last step. Currently having trouble with that because the quote always return [object Object] when changed the .attr(). Will have to ask for help for this part. Time to move onto next project (Local Weather App), signed up for the API
+**Today's Progress**: Completed most parts of this first project, need to link twitter button to copy quote for last step. Currently having trouble with that because the quote always return [object Object] when changed the .attr(). Will have to ask for help for this part. Time to move onto next project (Local Weather App), signed up for the API, got the API key, and next is to implement the geolocation to the API endpoint. https://openweathermap.org/ used for weather API.
 
 **Thoughts:** Still need to get a better concept and understanding on AJAX to resolve the twitter.
+
+**Link(s) to work:** 
+
+### Day 6: May 16, 2017
+
+**Today's Progress**: Finished every basic criteria on Local Weather API app, linked the endpoint with the coordinates based off of navigator.geolocation, general look for the page, a little simple. Will try to add more data information in it as well as showing the time and date of the local viewer. 
+
+**Thoughts:** Need to work on my planning phases a little more efficient, going back and forth between documentations and research really slows down the project. Do more readings and practices especially on PROMISES.
 
 **Link(s) to work:** 
 

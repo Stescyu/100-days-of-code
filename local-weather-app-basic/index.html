@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Local Weather App</title>
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,700|Montserrat:400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="asset/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <h1>Local Weather App</h1>
-        <h2 class="temp">20°<span>C</span></h2>
-        <h3 class="condition">Rainy</p>
-        <h4>Location: <span id="location">Unknown</span></h4>
+        <div class="container">
+            <p id="location"><span>Unknown Location</span></p>
+            <p id="icon"></p>
+            <p class="imp"><span id="temp">N/A</span><span id="unit" >°C/°F</span></p>
+            <p><span id="condition">Unknown Condition</span></p>
+        </div>
         <script type="text/javascript" src="asset/js/script.js"></script>
     </body>
 </html>

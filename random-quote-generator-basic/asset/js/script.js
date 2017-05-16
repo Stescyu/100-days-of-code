@@ -4,6 +4,29 @@ var newQuote = $("#newquote");
 var url = "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en#";
 
 $(document).ready(function(){
+
+//Generate Quote on Start
+getQuote();
+
+
+
+//Generate New Quote when pressed
+newQuote.on("click", function(){
+    getQuote();
+    $("blockquote").animate({width: 'toggle'}, 800);
+    $("blockquote").animate({width: 'toggle'}, 800);
+});
+});
+
+function getQuote(){
+    $.getJSON(url, function(data){
+    quote.text(data.quoteText);
+    author.text(data.quoteAuthor);
+    $.getJSON(url, function(data){
+  $(".share").html("<a class='twitter-share-button' href='https://twitter.com/share' data-size='large' data-text='" + data.quoteText + "'>Tweet</a>");
+});
+})
+
 //Twitter Button
 window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -23,26 +46,6 @@ window.twttr = (function(d, s, id) {
   return t;
 }(document, "script", "twitter-wjs"));
 
-//Generate Quote on Start
-getQuote();
-
-$(".twitter-share-button").attr("data-text", $.getJSON(url, function(data){
-    data["quoteText"];
-}))
-//Generate New Quote when pressed
-newQuote.on("click", function(){
-    getQuote();
-    $("blockquote").animate({width: 'toggle'}, 800);
-    $("blockquote").animate({width: 'toggle'}, 800);
-});
-});
-
-function getQuote(){
-    $.getJSON(url, function(data){
-    quote.text(data["quoteText"]);
-    author.text(data["quoteAuthor"]);
-    
-})
 }
 
 
