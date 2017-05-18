@@ -48,6 +48,14 @@
 
 **Link(s) to work:** 
 
+### Day 7: May 17, 2017
+
+**Today's Progress**: Just started a bit on wikipedia viewer from FCC, the main layout is similar to google, need a search box for search query and random. Need a refresher on the search query as it requires a post input that takes from the search box.
+
+**Thoughts:** Need to work on my planning phases a little more efficient, going back and forth between documentations and research really slows down the project. Do more readings and practices especially on PROMISES.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 

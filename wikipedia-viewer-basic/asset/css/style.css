@@ -1,0 +1,92 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 33%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 50px;
+      margin: 0;
+      text-align: center;
+}
+
+.logo {
+    color: #1B95E0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    font-size: 13px;
+    text-decoration: none;
+    background: #EEEEEE;
+    padding: 0;
+    margin: 0 2px;
+    border: 1px solid #EEEEEE;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: #333;
+}
+
+.btn:focus {
+    outline: none;
+    border: 1px solid #1B95E0;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px auto;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 0px 3px #E0E0E0;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 1px 2px #E0E0E0;
+    transition: box-shadow 0.1s linear;
+    -webkit-transition: box-shadow 0.1s linear;
+    -moz-transition: box-shadow 0.1s linear;
+    -o-transition: box-shadow 0.1s linear;
+}
+
+input:hover {
+    box-shadow: 2px 2px 3px #E0E0E0, -2px 2px 3px #E0E0E0;
+    
+}
+
+input::placeholder {
+    color: silver;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #1B95E0;
+    box-shadow: 2px 2px 3px #E0E0E0, -2px 2px 3px #E0E0E0;
+}
