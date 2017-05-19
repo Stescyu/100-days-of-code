@@ -1,19 +1,23 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     color: #333;
-    text-align: center;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
+
 .container {
-    width: 33%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container div {
+    text-align: center; 
 }
 
 h1 {
@@ -22,6 +26,12 @@ h1 {
       font-size: 50px;
       margin: 0;
       text-align: center;
+      -moz-user-select: -moz-none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: default;
 }
 
 .logo {
@@ -37,17 +47,19 @@ h1 {
     text-decoration: none;
     background: #EEEEEE;
     padding: 0;
-    margin: 0 2px;
+    margin: 2px;
     border: 1px solid #EEEEEE;
     padding: 5px 10px;
     border-radius: 3px;
     font-weight: 600;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+}
+
+#msg {
+    color: red;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .btn:hover {
@@ -70,10 +82,10 @@ input {
     box-shadow: 0px 0px 3px #E0E0E0;
     font-family: 'Open Sans', sans-serif;
     box-shadow: 0px 1px 2px #E0E0E0;
-    transition: box-shadow 0.1s linear;
-    -webkit-transition: box-shadow 0.1s linear;
-    -moz-transition: box-shadow 0.1s linear;
-    -o-transition: box-shadow 0.1s linear;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition:  0.1s linear;
+    -o-transition:  0.1s linear;
 }
 
 input:hover {
@@ -89,4 +101,54 @@ input:focus {
     outline: none;
     border: 1px solid #1B95E0;
     box-shadow: 2px 2px 3px #E0E0E0, -2px 2px 3px #E0E0E0;
+}
+
+.results {
+    display: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.resultBox a {
+    text-decoration: none;
+    color: #333;
+    margin: 5px;
+}
+
+.resultBox p {
+    padding: 10px 20px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+.eachBox {
+    border: 1px solid #E0E0E0;
+    border-left: 5px solid #333;
+    box-shadow: 0px 1px 2px #E0E0E0;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+
+}
+
+.eachBox:hover {
+    box-shadow: 2px 2px 3px #E0E0E0, -2px 2px 3px #E0E0E0;
+    border-left: 10px solid #1B95E0;
+}
+
+@media screen and (max-width: 768px){
+.container {
+    width: 80%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.results {
+    width: 90%;
+    margin-top: 80px;
+}
 }

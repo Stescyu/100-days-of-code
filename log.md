@@ -56,6 +56,23 @@
 
 **Link(s) to work:** 
 
+### Day 8: May 18, 2017
+
+**Today's Progress**: Linked to endpoint of Wikipedia API, the research took a little longer than expected, now working on displaying the results in a fashion that can be organized properly to show the user. More readings later on and practices
+
+**Thoughts:** Need better understanding of documentation. Read more codes to understand code.
+
+**Link(s) to work:** 
+
+### Day 9: May 19, 2017
+
+**Today's Progress**: Completed Wikipedia Search Engine. Got all parts to work, more reading for rest of the day.
+
+**Thoughts:** Read more code and books to get better and need to be 100% at understanding each concept.
+
+**Link(s) to work:** 
+
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 

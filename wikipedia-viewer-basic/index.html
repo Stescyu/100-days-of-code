@@ -3,21 +3,26 @@
     <head>
         <title>Wikipedia Search Engine</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,600" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="asset/css/style.css"
+        <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
-            <div>
                 <h1>Wiki<span class="logo">Search</span></h1>
-                    <form action="" method="GET">
-                        <input type="text" name="search" placeholder="Search Wikipedia Database">
+                <p id="msg"></p>
+                        <input id="searchTerm" type="text" name="search" placeholder="Search Wikipedia Database">
             <div>
-                        <button class="btn" type="submit">Wikipedia Search</button>
-                        <a class="btn" href="https://en.wikipedia.org/wiki/Special:Random" oncontextmenu="return false;">Random Wiki</a>
-            </div>
-                    </form>
+                        <button id="submitBtn" class="btn">Wikipedia Search</button>
+                        <button id="randomBtn" class="btn">Random Wiki</button>
             </div>
         </div>
-        <script type="text/javascript"></script>
+        <div class="results">
+            <p><strong>Top Search Results For "<span id="term"></span>" :</strong></p>
+            <div class="resultBox">
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="asset/js/script.js"></script>
     </body>
 </html>

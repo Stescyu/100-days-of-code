@@ -29,7 +29,7 @@ if(navigator.geolocation){
 
             if(data.weather[0].main.toLowerCase() === "rain"){
                 $("#icon").html("<img src='asset/images/rain.png'>")
-            } else if(data.weather[0].main.toLowerCase() === "clear sky") {
+            } else if(data.weather[0].main.toLowerCase() === "clear") {
                 $("#icon").html("<img src='asset/images/sunny.png'>")
             } else if(data.weather[0].main.toLowerCase() === "thunderstorm") {
                 $("#icon").html("<img src='asset/images/storm.png'>")
