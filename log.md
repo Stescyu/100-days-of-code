@@ -2,7 +2,7 @@
 
 ### Day 1: May 11, 2017 
 
-**Today's Progress**: Started On First Project (Random Quote Generator). Use https://quotesondesign.com/api-v4-0/ for random quote generator. http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1 is the endpoint.
+**Today's Progress:** Started On First Project (Random Quote Generator). Use https://quotesondesign.com/api-v4-0/ for random quote generator. http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1 is the endpoint.
 
 **Thoughts:** Just finished learning node.js with express to access API and manipulate to create EJS files for browsers, instead of using index.html, going to use node.js to start spinning up a local server for access. All it matters is the practice using javascript. Need to get more familiar with the node package manager installations; such as request.
 
@@ -10,7 +10,7 @@
 
 ### Day 2: May 12, 2017
 
-**Today's Progress**: Continued On First Project (Random Quote Generator). Problem is that the content of the quote uses escape characters format which includes all the <html> and certain char codes. npm installed underscore.string to fix issue 
+**Today's Progress:** Continued On First Project (Random Quote Generator). Problem is that the content of the quote uses escape characters format which includes all the <html> and certain char codes. npm installed underscore.string to fix issue 
 
 **Thoughts:** I wondered if the EJS variables can find a way to link to JS files externally.
 
@@ -18,7 +18,7 @@
 
 ### Day 3: May 13, 2017
 
-**Today's Progress**: Continued On First Project (Random Quote Generator). In order to submit to codepen.io for submission, I need to redo this without the custom backend technologies. Therefore have to remake a basic version where I could only use HTML/CSS/JS. Had to take a step back because I am getting this error: "XMLHttpRequest cannot load http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.". Worked on certain aesthetics.
+**Today's Progress:** Continued On First Project (Random Quote Generator). In order to submit to codepen.io for submission, I need to redo this without the custom backend technologies. Therefore have to remake a basic version where I could only use HTML/CSS/JS. Had to take a step back because I am getting this error: "XMLHttpRequest cannot load http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.". Worked on certain aesthetics.
 
 **Thoughts:** Need to get a better concept and understanding on AJAX, that could be the solution to the problem. CSS design could use some work.
 
@@ -26,7 +26,7 @@
 
 ### Day 4: May 14, 2017
 
-**Today's Progress**: Continued On First Project (Random Quote Generator). Did a whole CSS overhaul today with minor use of flexbox, also learnt the functionality of flexbox which really helps with the columns elements without floats and makes styling much easier. Got the basic layout done. Fixed yesterday's error using a CORS extension for my browser, now using http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# instead for quotes to complement the aesthetics.
+**Today's Progress:** Continued On First Project (Random Quote Generator). Did a whole CSS overhaul today with minor use of flexbox, also learnt the functionality of flexbox which really helps with the columns elements without floats and makes styling much easier. Got the basic layout done. Fixed yesterday's error using a CORS extension for my browser, now using http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en# instead for quotes to complement the aesthetics.
 
 **Thoughts:** Still need to get a better concept and understanding on AJAX. Design have always been my weakness, I believe I need to spend more time looking at different designs to get some aspects on different matching and design elements when I start a project. Afterall there should be a balance between looks and functionality.
 
@@ -34,7 +34,7 @@
 
 ### Day 5: May 15, 2017
 
-**Today's Progress**: Completed most parts of this first project, need to link twitter button to copy quote for last step. Currently having trouble with that because the quote always return [object Object] when changed the .attr(). Will have to ask for help for this part. Time to move onto next project (Local Weather App), signed up for the API, got the API key, and next is to implement the geolocation to the API endpoint. https://openweathermap.org/ used for weather API.
+**Today's Progress:** Completed most parts of this first project, need to link twitter button to copy quote for last step. Currently having trouble with that because the quote always return [object Object] when changed the .attr(). Will have to ask for help for this part. Time to move onto next project (Local Weather App), signed up for the API, got the API key, and next is to implement the geolocation to the API endpoint. https://openweathermap.org/ used for weather API.
 
 **Thoughts:** Still need to get a better concept and understanding on AJAX to resolve the twitter.
 
@@ -42,15 +42,15 @@
 
 ### Day 6: May 16, 2017
 
-**Today's Progress**: Finished every basic criteria on Local Weather API app, linked the endpoint with the coordinates based off of navigator.geolocation, general look for the page, a little simple. Will try to add more data information in it as well as showing the time and date of the local viewer. 
+**Today's Progress:** Finished every basic criteria on Local Weather API app, linked the endpoint with the coordinates based off of navigator.geolocation, general look for the page, a little simple. Will try to add more data information in it as well as showing the time and date of the local viewer. 
 
 **Thoughts:** Need to work on my planning phases a little more efficient, going back and forth between documentations and research really slows down the project. Do more readings and practices especially on PROMISES.
 
-**Link(s) to work:** 
+**Link(s) to work:** http://codepen.io/Stescyu/pen/vmaayP
 
 ### Day 7: May 17, 2017
 
-**Today's Progress**: Just started a bit on wikipedia viewer from FCC, the main layout is similar to google, need a search box for search query and random. Need a refresher on the search query as it requires a post input that takes from the search box.
+**Today's Progress:** Just started a bit on wikipedia viewer from FCC, the main layout is similar to google, need a search box for search query and random. Need a refresher on the search query as it requires a post input that takes from the search box.
 
 **Thoughts:** Need to work on my planning phases a little more efficient, going back and forth between documentations and research really slows down the project. Do more readings and practices especially on PROMISES.
 
@@ -58,7 +58,7 @@
 
 ### Day 8: May 18, 2017
 
-**Today's Progress**: Linked to endpoint of Wikipedia API, the research took a little longer than expected, now working on displaying the results in a fashion that can be organized properly to show the user. More readings later on and practices
+**Today's Progress:** Linked to endpoint of Wikipedia API, the research took a little longer than expected, now working on displaying the results in a fashion that can be organized properly to show the user. More readings later on and practices
 
 **Thoughts:** Need better understanding of documentation. Read more codes to understand code.
 
@@ -66,9 +66,25 @@
 
 ### Day 9: May 19, 2017
 
-**Today's Progress**: Completed Wikipedia Search Engine. Got all parts to work, more reading for rest of the day.
+**Today's Progress:** Completed Wikipedia Search Engine. Got all parts to work, more reading for rest of the day.
 
 **Thoughts:** Read more code and books to get better and need to be 100% at understanding each concept.
+
+**Link(s) to work:** http://codepen.io/Stescyu/pen/jmvaPP
+
+### Day 10: May 20, 2017
+
+**Today's Progress:** Started Twitch.tv API streamer status indicator project. Focus on documentation to know which part to link for end point. Short session today
+
+**Thoughts:** Read and practice more will give me a faster pace.
+
+**Link(s) to work:** 
+
+### Day 11: May 21, 2017
+
+**Today's Progress:** Worked a bit on the design on the webpage, design is still a little slow, and I am too indecisive with design 
+
+**Thoughts:** Need to read more and get more exposure to design.
 
 **Link(s) to work:** 
 
@@ -76,7 +92,7 @@
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress:** Fixed CSS, worked on canvas functionality for the app.
 
 **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
 
@@ -85,7 +101,7 @@
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress:** Fixed CSS, worked on canvas functionality for the app.
 
 **Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
 
@@ -94,7 +110,7 @@
 
 ### Day 1: June 27, Monday
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress:** I've gone through many exercises on FreeCodeCamp.
 
 **Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
 

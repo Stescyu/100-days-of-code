@@ -27,10 +27,13 @@ function getData(){
     $(".eachBox").remove();
         var url = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&origin=*&search=" + searchTerm.val();
         $.getJSON(url, function(data){
+//Loop through each of the JSON object
     for(var i = 0; i < data[1].length; i++){
         var title = data[1][i];
         var description = data[2][i];
         var link = data[3][i];
+
+//Create search results
         $(".resultBox").append("<a href='" + link + "'><div class='eachBox'><p><strong>" + title + "</strong></p><p><em>" + description + "</em></p></div></a>");
     }
     $(".results").css("display", "block");
