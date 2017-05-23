@@ -88,6 +88,22 @@
 
 **Link(s) to work:** 
 
+### Day 12: May 22, 2017
+
+**Today's Progress:** Worked on 50% Design elements of the project. Still indecisive with certain elements of design. Read up on blogging information.
+
+**Thoughts:** Maybe its a good thing to start blogging. Not only do you hold yourself accountable for your work, but also help yourself develop as a better web developer.
+
+**Link(s) to work:** 
+
+### Day 13: May 23, 2017
+
+**Today's Progress:** Finished Twitch API app, learnt alot of limits. Will proceed to collaborate all the projects together in a drag and drop.
+
+**Thoughts:** This project was fun to do, but at the same time I know where my limits were and I need to work upon those in the future. So far I am happy with the result of my app
+
+**Link(s) to work:** 
+
 
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)

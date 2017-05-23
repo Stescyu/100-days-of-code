@@ -1,16 +1,108 @@
-html, body {
+html {
     height: 100%;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     font-family: 'Titillium Web', sans-serif;
+    background-image:url("https://images8.alphacoders.com/702/702959.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+      width: 60%;
+      margin: auto;
 }
 
 h1 {
-    background: #4B367C;
     color: #FFF;
     padding: 10px;
-    margin: 0;
     font-family: 'Amaranth', sans-serif;
     font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin: 15px auto;
+    font-size: 40px;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 20px;
+    background-color: rgba(169, 144, 216, 0.9);
+}
+
+li {
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li:hover {
+    transition: 0.2s linear;
+    background: rgba(129, 97, 188, 0.9);
+    color: #FFF;
+    border-left: 5px solid #FFF;
+}
+
+img {
+    border: 3px solid #FFF;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+.streamers {
+    margin-left: 5%;
+    font-weight: 600;
+}
+
+.content {
+    display: block;
+    margin: 10px 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.status {
+    content: ' ';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    text-align: right;
+    float: right;
+}
+
+.online {
+    background-color: #94E185;
+    border-color: #78D965;
+    box-shadow: 0px 0px 4px 1px #94E185;
+}
+
+.offline {
+    background-color: #C9404D;
+    border-color: #C42C3B;
+    box-shadow: 0px 0px 4px 1px #C9404D;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
 }
