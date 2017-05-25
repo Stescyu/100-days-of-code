@@ -104,6 +104,21 @@
 
 **Link(s) to work:** 
 
+### Day 14: May 24, 2017
+
+**Today's Progress:** Fixed Tweet Button for Random Quote Generator, starting next part of freecodecamp puzzles.
+
+**Thoughts:** These projects were fun and I'm glad I completed them before the 100 hour mark. However I need to start working on cleaner code and get a better thought process for each function.
+
+**Link(s) to work:** 
+
+### Day 15: May 25, 2017
+
+**Today's Progress:** More exercises on FCC, lots of algorithm exercises to practice. 
+
+**Thoughts:** Next step is bigger projects. Perhaps redo them with express and node.js
+
+**Link(s) to work:** 
 
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
