@@ -1,0 +1,44 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #232323;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 100;
+	background-color: #0EB17E;
+	margin: 0;
+	padding: 5%;
+}
+
+#header {
+	text-align: center;
+	margin: auto;
+	background-color: #FFF;
+}
+
+#message {
+	display: inline-block;
+	width: 90px;
+}
+
+#container {
+	margin: 20px auto;
+	text-align: center;
+	width: 70%;
+}
+.color {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.33%;
+	display: inline-block;
+	background-color: rgb(255,255,0);
+	border-radius: 10px;
+}
