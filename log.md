@@ -114,9 +114,65 @@
 
 ### Day 15: May 25, 2017
 
-**Today's Progress:** More exercises on FCC, lots of algorithm exercises to practice. 
+**Today's Progress:** working on FCC algorithm exercises today and reading more books. 
 
-**Thoughts:** Next step is bigger projects. Perhaps redo them with express and node.js
+**Thoughts:** Need to read more into functional programming. That can definitely help me with future projects
+
+**Link(s) to work:** 
+
+### Day 16: May 26, 2017
+
+**Today's Progress:** more FCC algorithm exercises, more readings.  
+
+**Thoughts:** Looking into drag and drop for past projects.
+
+**Link(s) to work:** 
+
+### Day 17: May 27, 2017
+
+**Today's Progress:** Started a collaborate project with Mike, Creating a basic web app quiz from scratch
+
+**Thoughts:** Should look into initial configurations.
+
+**Link(s) to work:** 
+
+### Day 18: May 28, 2017
+
+**Today's Progress:** Started another udemy tutorial, lots of algorithm exercises to practice. 
+
+**Thoughts:** Need to keep projects ideas running
+
+**Link(s) to work:** 
+
+### Day 19: May 29, 2017
+
+**Today's Progress:** Started on a music API connect, similar to billboard top 100, try to put sound integration if possible.
+
+**Thoughts:** XML is pretty difficult in comparison to JSON
+
+**Link(s) to work:**
+
+### Day 20: May 30, 2017
+
+**Today's Progress:** Worked on more music billboard API, got the title to show on the top 10, but nothing else yet
+
+**Thoughts:** Need to know how to deal with tags with <im:~~~> or multiple tags of same name, perhaps need to target specific child nodes with JS.
+
+**Link(s) to work:** 
+
+### Day 21: May 31, 2017
+
+**Today's Progress:** Worked with my buddy Mike on a quiz app again, got the configuration, layout commencing.
+
+**Thoughts:** Need to halt Music Billboard for the meantime. It is too time consuming.
+
+**Link(s) to work:** 
+
+### Day 22: June 1, 2017
+
+**Today's Progress:** More concepts of Javascript, more algorithm practices from FCC.
+
+**Thoughts:**
 
 **Link(s) to work:** 
 
