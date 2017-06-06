@@ -208,6 +208,14 @@
 
 **Link(s) to work:** 
 
+### Day 27: June 6, 2017
+
+**Today's Progress:** More FCC Algorithm, continued to work on meal selector program. Need to add more variations and options possibly with API calls.
+
+**Thoughts:** Fun and practical little side project to keep my memories fresh for a web app. Getting better with design to a certain point. Learning new techniques in designs.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
