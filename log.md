@@ -176,6 +176,38 @@
 
 **Link(s) to work:** 
 
+### Day 23: June 2, 2017
+
+**Today's Progress:** More concepts of Javascript, more algorithm practices from FCC.
+
+**Thoughts:**
+
+**Link(s) to work:** 
+
+### Day 24: June 3, 2017
+
+**Today's Progress:** Played with data for quiz app, need to use local data to bypass CORS error on browser.
+
+**Thoughts:**
+
+**Link(s) to work:** 
+
+### Day 25: June 4, 2017
+
+**Today's Progress:** Created layout for quiz app, more reading on Javascript and algorithm practices for FCC.
+
+**Thoughts:** The algorithm work are getting more difficult, so it is taking more time to do those practices nowadays. Need to think of a nother project to keep myself more productive.
+
+**Link(s) to work:** 
+
+### Day 26: June 5, 2017
+
+**Today's Progress:** More concepts of Javascript, more algorithm practices from FCC, started a food choosing program.
+
+**Thoughts:** Need to work on the spegetti code, add more things into every project I can. Play around with design if possible. I think I should create a meal plan based off of this program. I could try to create a fitness webapp to indicate workouts and meals.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 

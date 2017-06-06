@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: url("http://wpdune.com/wp-content/uploads/2015/03/restaurant-icons.jpg");
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+    color: #333;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+    background: #FE6347;
+    color: #FFF;
+    padding: 5px 20px;
+    border: 1px dashed #FFF;
+    outline: none;
+    font-family: 'Amatic SC', cursive;
+}
+
+button:hover {
+    transition: 0.1s linear;
+    transform: rotate(5deg);
+    font-weight: 700;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+/*Paper Effect*/
+.box
+{
+	position: relative;
+	width: 70%;
+	padding: 50px;
+	margin: 25px auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.box:before, .box:after
+{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.box:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+@media screen and (max-width: 700px){
+    .container {
+        width: 80%;
+    }
+}
