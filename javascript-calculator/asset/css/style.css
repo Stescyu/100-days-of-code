@@ -1,0 +1,96 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    color: #FFF;
+    background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #5691c8, #457fca);
+background: -moz-linear-gradient(left, #5691c8, #457fca);
+background: -o-linear-gradient(left, #5691c8, #457fca);
+background: linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#shell {
+    border: 2px solid #2F3032;
+    box-shadow: 3px 3px 5px #2F3032;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 305px;
+    background: #4F5052;
+}
+
+#shell h3 {
+    padding: 5px;
+    margin: 5px;
+}
+
+#display {
+    color: #333;
+    background: #C4CFA1;
+    box-shadow: 1px 1px 0px #A1AF74;
+    border-radius: 5px;
+    text-align: right;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-family: 'Audiowide', cursive;
+}
+
+#display h1{
+    padding-top: 5px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+#display p{
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+ margin: auto;   
+ width: 320px;
+ margin-bottom: 30px;
+}
+
+.row {
+    margin: auto;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Unica One', cursive;
+    color: #333;
+    outline: none;
+    /*TEST*/
+    background: #e0e0e0;
+    border: 1px solid #B3B3B3;
+    box-shadow: 0px 2px 0px #B3B3B3;
+}
+
+button:active {
+    box-shadow: 0px 0px 0px #B3B3B3;
+    position: relative;
+    top: 2px;
+}
+
+#allClear {
+    background: #F3014D;
+    color: #FFF;
+    border: 1px solid #BB003C;
+    box-shadow: 0px 2px 0px #BB003C;
+    
+}
+
+#allClear:active {
+    box-shadow: 0px 0px 0px #BB003C;
+
+}
