@@ -216,6 +216,29 @@
 
 **Link(s) to work:** 
 
+### Day 28 - Day 46: June 25, 2017
+
+**Progress:** Collection of Udemy Course work from Weirds Part of JS, Modern React and Redux, FCC Algorithm Puzzles, and Lab work from Apache Hadoop.
+
+**Thoughts:** These 20 days was extremely educational learning phase for these big 3 concept and language understanding
+
+**Link(s) to work:** 
+
+### Day 47: June 26, 2017
+**Today's Progress:** Started on Javascript Calculator 
+
+**Thoughts:** Design aspect took a while, getting the buttons to function properly took a while but it was worthwhile.
+
+**Link(s) to work:** 
+
+### Day 48 - 57: July 7, 2017
+**Today's Progress:** Through these last 9 days, learnt plentiful of React work and more javascript, on the other hand the calculator is completed.
+
+**Thoughts:** 
+Operators took a while to finish as it isn't as straightforward as it seems. But it is still completed and functions are reused.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
