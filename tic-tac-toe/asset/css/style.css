@@ -1,0 +1,108 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Permanent Marker', cursive;
+  user-select: none;
+}
+body {
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/69/0c/f6/690cf657788ea89a9ecabc258a0388f1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95%;
+  width: 100%;
+}
+
+#settings {
+  text-align: center;
+}
+
+#settings h1 {
+  font-size: 50px;
+  margin: 0;
+  user-select: none;
+  cursor: default; 
+}
+
+#settings div h2{
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#selection div h2:hover {
+  color: #777;
+}
+
+#restartGame {
+  margin-top: -20px;
+  color: #8B0000;
+}
+
+#restartGame h2:hover {
+  color: #CE3434;
+}
+
+#selection h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 450px;
+}
+
+#display h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  display: inline-block;
+  margin: -5px;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  font-size: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.topbotmid {
+  border-left: 9px solid #333;
+  border-right: 9px solid #333;
+}
+
+.midleftright {
+  border-top: 9px solid #333;
+  border-bottom: 9px solid #333;
+}
+
+.mid {
+  border: 9px solid #333;
+}
+
+#setSpace {
+  height: 120px;
+}
+
+.hideMenu {
+  display:none;
+}
+
+.noClick {
+  pointer-events:none;
+}

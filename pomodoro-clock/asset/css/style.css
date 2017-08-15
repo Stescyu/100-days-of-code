@@ -1,0 +1,54 @@
+body {
+  background: #333;
+  color: #EEE;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.instructions {
+  margin-right:50px;
+}
+.settings {
+  color: #EEE;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.timer {
+  margin-top:20px;
+  font-family: 'Orbitron', sans-serif;
+  color: #fe0002;
+  font-size: 80px;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  display: flex;
+}
+
+@media only screen and (max-width: 700px){
+  body {
+    width: 100%;
+  }
+  h1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .instructions{
+    margin-left: 50px;
+  }
+  .container {
+    display: inline-block;
+    width: 100%;
+  }
+}
