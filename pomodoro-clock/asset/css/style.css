@@ -13,26 +13,28 @@ h1 {
   font-weight: 100;
 }
 
-.instructions {
-  margin-right:50px;
-}
-.settings {
-  color: #EEE;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-}
-.timer {
-  margin-top:20px;
+#displayTime {
+  margin: 20px;
   font-family: 'Orbitron', sans-serif;
   color: #fe0002;
   font-size: 80px;
+}
+
+.timerSettings div {
+  font-family: 'Orbitron', sans-serif;
+  color: #fe0002;
+  font-size: 80px;
+  margin: 10px;
 }
 
 .container {
   margin: auto;
   text-align: center;
   width: 600px;
-  display: flex;
+}
+
+.fa:hover {
+  cursor: pointer; 
 }
 
 @media only screen and (max-width: 700px){
@@ -43,9 +45,6 @@ h1 {
     width: 100%;
     margin: auto;
     text-align: center;
-  }
-  .instructions{
-    margin-left: 50px;
   }
   .container {
     display: inline-block;
