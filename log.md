@@ -239,6 +239,14 @@ Operators took a while to finish as it isn't as straightforward as it seems. But
 
 **Link(s) to work:** 
 
+### Day 58 - 89: August 22, 2017
+**Today's Progress:** Through this month, I have worked on Pomodoro Timer, Tic-Tac-Toe, and Partial Simon Says game, mainly focusing on learning ReactJS and Redux as an important tool for job search. I also did more algorithm work on Free Code Camp webpage that isn't shown in this challenge. With this challenge almost completed, I aim to continue with other challenges coming up and will log them more appropriately to show a more proper growth.
+
+**Thoughts:** 
+Some of the projects did stump me for a while to get the proper algorithm, but for most parts all I needed to do is to take it apart piece by piece and approach it one step at a time. Need to stop overthinking for the process and fix as I go.
+
+**Link(s) to work:** 
+
 <!--### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
